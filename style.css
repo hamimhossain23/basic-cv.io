@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#eee ;
+}
+
+.container{
+    background-color: rgb(217, 217, 247) ;
+    width:90% ;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.dp{
+    height: 200px;
+    border: 3px solid rgb(128, 128, 246);
+    border-radius: 60%;
+    padding: 2px;
+    float: left;
+    
+}
+
+.name{
+    float: left;
+    padding: 70px;
+}
+
+h1,h3,h5{
+    color: rgb(3, 109, 59);
+}
+
+h2,h4,h6{
+    color: brown;
+}
+
+.email{
+    float: right;
+    padding: 70px;
+    
+}
+
+.email p{
+    margin: 10px;
+}
+
+.email p a{
+    text-decoration: none;
+    
+}
+
+.email p a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.clear{
+    clear: both;
+}
+
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+
+.header{
+    float: left;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.content{
+    float: left;
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.no-design{
+    border: 1px solid black;
+    border-bottom: none;
+}
+p{
+    text-align: justify;
+}
+
+
+
+
+
+.footer-style{
+    background-color: black;
+    color: #eee;
+    height: 80px;
+    text-align: center;
+    padding-top: 50px;
+}
